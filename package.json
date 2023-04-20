@@ -1,0 +1,17 @@
+{
+    "name": "hotelapp_backend",
+    "version": "1.0.0",
+    "description": "Hotel Management App",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "author": "Davit Pirmisashvili",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.22"
+    }
+}
