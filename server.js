@@ -13,7 +13,7 @@ mongoose
         useUnifiedTopology: true,
     })
     .then((con) => {
-        console.log(con.connection);
+        console.log('DB connection successful');
     });
 
 const app = require('./app');
