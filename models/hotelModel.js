@@ -62,8 +62,23 @@ const hotelSchema = new mongoose.Schema({
             'Please enter a valid website address',
         ],
     },
+    ratingsAverage: {
+        type: Number,
+        default: 0,
+    },
+    ratingsQuantity: {
+        type: Number,
+        default: 0,
+    },
 });
 
 const Hotel = mongoose.model('Hotel', hotelSchema);
 
 module.exports = Hotel;
+
+// TODO: add relationship to employees
+// TODO: add hotel type enum
+// TODO: location
+// TODO: parent model for same hotels - Owner model
+
+// TODO: 2 inputs for ratings: for 2 different ratings
